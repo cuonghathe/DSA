@@ -24,13 +24,13 @@ class SINHVIEN {
             cout << "Nhap vao ket qua mon hoc cua sinh vien (GPA<4): " ;
             cin >> GPA;
             cin.ignore();
-            if (GPA > 3.6){
+            if (GPA >= 3.6){
                 XL = "xuat sac";
-            }else if (GPA > 3.2 && GPA < 3.59){
+            }else if (GPA >= 3.2 && GPA <= 3.59){
                 XL = "gioi";
-            }else if (GPA > 2.5 && GPA < 3.19){
+            }else if (GPA >= 2.5 && GPA <= 3.19){
                 XL = "kha";
-            }else if (GPA > 2.0 && GPA < 2.49){
+            }else if (GPA >= 2.0 && GPA <= 2.49){
                 XL = "trung binh";
             }else{
                 XL = "thi lai";
